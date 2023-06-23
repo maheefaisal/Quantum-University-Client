@@ -13,7 +13,7 @@ const SemesterPolicy = () => {
       </div>
 
       {/* Text For semester policy */}
-      <div className="py-6 container mx-auto">
+      <div className="my-8 mx-auto max-w-2xl text-justify">
         <h2 className="text-2xl font-bold mb-4">Academic Year and Semester Duration</h2>
         <p className="text-gray-700 ">
           BUBT follows a model of higher education consisting of semesters,

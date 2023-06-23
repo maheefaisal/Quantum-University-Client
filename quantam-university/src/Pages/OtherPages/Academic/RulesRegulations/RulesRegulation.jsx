@@ -15,7 +15,7 @@ const RulesRegulation = () => {
         </div>
       </div>
       {/* Text Rules and Regulations  */}
-      <div className="py-8 px-4 container mx-auto">
+      <div className="my-8 mx-auto max-w-2xl text-justify">
         <Slide>
           <p className="mb-4 font-bold animate-fade-in">Academic Standards:</p>
         </Slide>

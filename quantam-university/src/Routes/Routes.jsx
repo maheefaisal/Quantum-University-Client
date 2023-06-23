@@ -10,6 +10,8 @@ import EvaluationGradingSystem from "../Pages/OtherPages/Academic/EvaluationGrad
 import RulesRegulation from "../Pages/OtherPages/Academic/RulesRegulations/RulesRegulation";
 import SemesterPolicy from "../Pages/OtherPages/Academic/Semester Policy/SemesterPolicy";
 import SpecialFeaturesofBUBT from "../Pages/OtherPages/Academic/SpecialFeaturesofBUBT/SpecialFeaturesofBUBT";
+import TuitionFees from "../Pages/OtherPages/Admission/TuitionFees/TuitionFees";
+import ScholarshipsWaiver from "../Pages/OtherPages/Admission/ScholarshipsWaiver/ScholarshipsWaiver";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +57,14 @@ const router = createBrowserRouter([
       {
         path: "/specialfeatures",
         element: <SpecialFeaturesofBUBT></SpecialFeaturesofBUBT>,
+      },
+      {
+        path: "/tuitionfees",
+        element: <TuitionFees></TuitionFees>,
+      },
+      {
+        path: "/scholarshipswaiver",
+        element: <ScholarshipsWaiver></ScholarshipsWaiver>,
       },
     ],
   },

@@ -51,8 +51,8 @@ const Navbar = () => {
     {
       label: "Admission",
       submenu: [
-        { label: "Submenu 1", path: "/" },
-        { label: "Submenu 2", path: "/" },
+        { label: "Tuition Fees", path: "/tuitionfees" },
+        { label: "Scholarships & Waiver", path: "/scholarshipswaiver" },
       ],
     },
     {

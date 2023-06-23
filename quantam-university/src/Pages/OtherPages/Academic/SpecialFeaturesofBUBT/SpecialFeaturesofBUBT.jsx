@@ -11,7 +11,7 @@ const SpecialFeaturesofBUBT = () => {
           <h1 className="text-white text-4xl font-bold">Special Features</h1>
         </div>
       </div>
-      <div className=" mx-auto p-6 bg-white rounded-lg shadow">
+      <div className=" my-8 mx-auto max-w-2xl text-justify">
         <div className="mb-4">
           <h3 className="text-2xl font-bold mb-2">Campus</h3>
           <p className="text-gray-700">
