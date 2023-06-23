@@ -6,6 +6,10 @@ import MissionandObjectives from "../Pages/OtherPages/About/MissionandObjectives
 import Campus from "../Pages/OtherPages/About/Campus/Campus";
 import GeneralRulesandRegulations from "../Pages/OtherPages/About/GeneralRulesandRegulations/GeneralRulesandRegulations";
 import Career from "../Pages/OtherPages/About/Career/Career";
+import EvaluationGradingSystem from "../Pages/OtherPages/Academic/EvaluationGradingSystem/EvaluationGradingSystem";
+import RulesRegulation from "../Pages/OtherPages/Academic/RulesRegulations/RulesRegulation";
+import SemesterPolicy from "../Pages/OtherPages/Academic/Semester Policy/SemesterPolicy";
+import SpecialFeaturesofBUBT from "../Pages/OtherPages/Academic/SpecialFeaturesofBUBT/SpecialFeaturesofBUBT";
 
 const router = createBrowserRouter([
   {
@@ -34,7 +38,23 @@ const router = createBrowserRouter([
       },
       {
         path: "/career",
-        element: <Career></Career>
+        element: <Career></Career>,
+      },
+      {
+        path: "/evaluationgradingsystem",
+        element: <EvaluationGradingSystem></EvaluationGradingSystem>,
+      },
+      {
+        path: "/rulesregulation",
+        element: <RulesRegulation></RulesRegulation>,
+      },
+      {
+        path: "/semesterpolicy",
+        element: <SemesterPolicy></SemesterPolicy>,
+      },
+      {
+        path: "/specialfeatures",
+        element: <SpecialFeaturesofBUBT></SpecialFeaturesofBUBT>,
       },
     ],
   },

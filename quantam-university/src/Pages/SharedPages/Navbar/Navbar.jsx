@@ -39,8 +39,13 @@ const Navbar = () => {
     {
       label: "Academics",
       submenu: [
-        { label: "SubMenu1", path: "/" },
-        { label: "Submenu 2", path: "/" },
+        {
+          label: "Evaluation Grading System",
+          path: "/evaluationgradingsystem",
+        },
+        { label: "Rules And Regulations", path: "/rulesregulation" },
+        { label: "Semester Policy", path: "/semesterpolicy" },
+        { label: "Special Features", path: "/specialfeatures" },
       ],
     },
     {
