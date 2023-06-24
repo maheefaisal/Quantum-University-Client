@@ -14,6 +14,14 @@ import TuitionFees from "../Pages/OtherPages/Admission/TuitionFees/TuitionFees";
 import ScholarshipsWaiver from "../Pages/OtherPages/Admission/ScholarshipsWaiver/ScholarshipsWaiver";
 import CreditTransfer from "../Pages/OtherPages/Admission/CreditTransfer/CreditTransfer";
 import ContactUs from "../Pages/OtherPages/ContactUs/ContactUs";
+import BBA from "../Pages/OtherPages/Programs/BBA/BBA";
+import BaHonsEnglish from "../Pages/OtherPages/Programs/BaHonsEnglish/BaHonsEnglish";
+import BscCse from "../Pages/OtherPages/Programs/BscCse/BscCse";
+import BscEconomics from "../Pages/OtherPages/Programs/BscEconomics/BscEconomics";
+import BSCEEE from "../Pages/OtherPages/Programs/BSCEEE/BSCEEE";
+import BSCHonsEnglish from "../Pages/OtherPages/Programs/BSCHonsEnglish/BSCHonsEnglish";
+import BSCTextileEngineering from "../Pages/OtherPages/Programs/BSCTextileEngineering/BSCTextileEngineering";
+import LLB from "../Pages/OtherPages/Programs/LL.BHons/LL.B";
 
 const router = createBrowserRouter([
   {
@@ -75,6 +83,39 @@ const router = createBrowserRouter([
       {
         path: "/contactus",
         element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/bba",
+        element: <BBA></BBA>,
+      },
+      {
+        path: "/bahonsenglish",
+        element: <BaHonsEnglish></BaHonsEnglish>,
+      },
+      {
+        path: "/bsccse",
+        element: <BscCse></BscCse>,
+      },
+
+      {
+        path: "/bsceconomics",
+        element: <BscEconomics></BscEconomics>,
+      },
+      {
+        path: "/bsceee",
+        element: <BSCEEE></BSCEEE>,
+      },
+      {
+        path: "/bschonsenglish",
+        element: <BSCHonsEnglish></BSCHonsEnglish>,
+      },
+      {
+        path: "/bsctextileengineering",
+        element: <BSCTextileEngineering></BSCTextileEngineering>,
+      },
+      {
+        path: "/LLB",
+        element: <LLB></LLB>
       },
     ],
   },

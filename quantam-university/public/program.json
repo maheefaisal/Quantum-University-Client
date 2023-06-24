@@ -1,0 +1,14 @@
+[
+    { "serialNumber": 1, "courseCode": "BUS 101", "courseTitle": "Introduction to Business" },
+    { "serialNumber": 2, "courseCode": "BUS 202", "courseTitle": "Business Communication" },
+    { "serialNumber": 3, "courseCode": "BUS 303", "courseTitle": "International Business" },
+    { "serialNumber": 4, "courseCode": "BUS 404", "courseTitle": "Business Environment" },
+    { "serialNumber": 5, "courseCode": "BUS 405", "courseTitle": "Research Methodology for BusinessBUS " },
+    { "serialNumber": 6, "courseCode": "ACT 101", "courseTitle": "Introduction to Financial Accounting" },
+    { "serialNumber": 7, "courseCode": "ACT 202", "courseTitle": "Introduction to Management Accounting" },
+    { "serialNumber": 8, "courseCode": "ACT 203", "courseTitle": "Taxation" },
+    { "serialNumber": 9, "courseCode": "MGT 201", "courseTitle": "Principles of Management" },
+    { "serialNumber": 10, "courseCode": "MGT 403", "courseTitle": "Project Management" }
+
+  ]
+  
