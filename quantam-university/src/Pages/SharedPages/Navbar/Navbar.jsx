@@ -53,6 +53,7 @@ const Navbar = () => {
       submenu: [
         { label: "Tuition Fees", path: "/tuitionfees" },
         { label: "Scholarships & Waiver", path: "/scholarshipswaiver" },
+        { label: "Credit Transfer", path: "/credittransfer" },
       ],
     },
     {
@@ -69,7 +70,7 @@ const Navbar = () => {
         { label: "Submenu 2", path: "/" },
       ],
     },
-    { label: "Contacts", path: "/" },
+    { label: "Contacts", path: "/contactus" },
   ];
 
   return (

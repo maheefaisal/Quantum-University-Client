@@ -12,6 +12,8 @@ import SemesterPolicy from "../Pages/OtherPages/Academic/Semester Policy/Semeste
 import SpecialFeaturesofBUBT from "../Pages/OtherPages/Academic/SpecialFeaturesofBUBT/SpecialFeaturesofBUBT";
 import TuitionFees from "../Pages/OtherPages/Admission/TuitionFees/TuitionFees";
 import ScholarshipsWaiver from "../Pages/OtherPages/Admission/ScholarshipsWaiver/ScholarshipsWaiver";
+import CreditTransfer from "../Pages/OtherPages/Admission/CreditTransfer/CreditTransfer";
+import ContactUs from "../Pages/OtherPages/ContactUs/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +67,14 @@ const router = createBrowserRouter([
       {
         path: "/scholarshipswaiver",
         element: <ScholarshipsWaiver></ScholarshipsWaiver>,
+      },
+      {
+        path: "/credittransfer",
+        element: <CreditTransfer></CreditTransfer>,
+      },
+      {
+        path: "/contactus",
+        element: <ContactUs></ContactUs>,
       },
     ],
   },
