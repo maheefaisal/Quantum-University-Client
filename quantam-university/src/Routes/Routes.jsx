@@ -22,6 +22,13 @@ import BSCEEE from "../Pages/OtherPages/Programs/BSCEEE/BSCEEE";
 import BSCHonsEnglish from "../Pages/OtherPages/Programs/BSCHonsEnglish/BSCHonsEnglish";
 import BSCTextileEngineering from "../Pages/OtherPages/Programs/BSCTextileEngineering/BSCTextileEngineering";
 import LLB from "../Pages/OtherPages/Programs/LL.BHons/LL.B";
+import LLMTwoYear from "../Pages/OtherPages/Programs/LLMTwoYear/LLMTwoYear";
+import LLMOneYear from "../Pages/OtherPages/Programs/LLMOneYear/LLMOneYear";
+import MSCINECONOMICS from "../Pages/OtherPages/Programs/MSCINECONOICS/MSCINECONOICS";
+import MSCINMATHEMATICS from "../Pages/OtherPages/Programs/MSCINMATHEMATICS/MSCINMATHEMATICS";
+import MAInEnglish from "../Pages/OtherPages/Programs/MAInEnglish/MAInEnglish";
+import ExecutiveMba from "../Pages/OtherPages/Programs/ExecutiveMBA/ExecutiveMba";
+import MBA from "../Pages/OtherPages/Programs/MBA/MBA";
 
 const router = createBrowserRouter([
   {
@@ -115,7 +122,35 @@ const router = createBrowserRouter([
       },
       {
         path: "/LLB",
-        element: <LLB></LLB>
+        element: <LLB></LLB>,
+      },
+      {
+        path: "/LLMTwoYear",
+        element: <LLMTwoYear></LLMTwoYear>,
+      },
+      {
+        path: "/LLMOneYear",
+        element: <LLMOneYear></LLMOneYear>,
+      },
+      {
+        path: "/msceconomics",
+        element: <MSCINECONOMICS></MSCINECONOMICS>,
+      },
+      {
+        path: "/MSCINMATHEMATICS",
+        element: <MSCINMATHEMATICS></MSCINMATHEMATICS>,
+      },
+      {
+        path: "/mainenglish",
+        element: <MAInEnglish></MAInEnglish>,
+      },
+      {
+        path: "/executivemba",
+        element: <ExecutiveMba></ExecutiveMba>,
+      },
+      {
+        path: "/MBA",
+        element: <MBA></MBA>,
       },
     ],
   },
