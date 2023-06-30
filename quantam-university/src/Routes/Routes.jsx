@@ -29,6 +29,16 @@ import MSCINMATHEMATICS from "../Pages/OtherPages/Programs/MSCINMATHEMATICS/MSCI
 import MAInEnglish from "../Pages/OtherPages/Programs/MAInEnglish/MAInEnglish";
 import ExecutiveMba from "../Pages/OtherPages/Programs/ExecutiveMBA/ExecutiveMba";
 import MBA from "../Pages/OtherPages/Programs/MBA/MBA";
+import BusinessClub from "../Pages/OtherPages/Clubs/BusinessClub";
+import CulturalClub from "../Pages/OtherPages/Clubs/CulturalClub";
+import DebatingClub from "../Pages/OtherPages/Clubs/DebatingClub";
+import BUBTITClub from "../Pages/OtherPages/Clubs/BUBTITClub";
+import RoverScout from "../Pages/OtherPages/Clubs/RoverScout";
+import BUBTSportsClub from "../Pages/OtherPages/Clubs/BUBTSportsClub";
+import IEEEBUBTStudentBranch from "../Pages/OtherPages/Clubs/IEEEBUBTStudentBranch";
+import BangladeshNationalCadetCorps from "../Pages/OtherPages/Clubs/BangladeshNationalCadetCorps";
+import BUBTMootCourtSocietyBMCS from "../Pages/OtherPages/Clubs/BUBTMootCourtSocietyBMCS";
+import BUBTPhotographyClub from "../Pages/OtherPages/Clubs/BUBTPhotographyClub";
 
 const router = createBrowserRouter([
   {
@@ -151,6 +161,50 @@ const router = createBrowserRouter([
       {
         path: "/MBA",
         element: <MBA></MBA>,
+      },
+      {
+        path: "/BusinessClub",
+        element: <BusinessClub></BusinessClub>,
+      },
+      {
+        path: "/CulturalClub",
+        element: <CulturalClub></CulturalClub>,
+      },
+      {
+        path: "/DebatingClub",
+        element: <DebatingClub></DebatingClub>,
+      },
+      {
+        path: "/BUBTITClub",
+        element: <BUBTITClub></BUBTITClub>,
+      },
+      {
+        path: "/RoverScout",
+        element: <RoverScout></RoverScout>,
+      },
+      {
+        path: "/BUBTSportsClub",
+        element: <BUBTSportsClub></BUBTSportsClub>,
+      },
+      {
+        path: "/RoverScout",
+        element: <RoverScout></RoverScout>,
+      },
+      {
+        path: "/IEEEBUBTStudentBranch",
+        element: <IEEEBUBTStudentBranch></IEEEBUBTStudentBranch>,
+      },
+      {
+        path: "/BangladeshNationalCadetCorps",
+        element: <BangladeshNationalCadetCorps></BangladeshNationalCadetCorps>,
+      },
+      {
+        path: "/BUBTMootCourtSocietyBMCS",
+        element: <BUBTMootCourtSocietyBMCS></BUBTMootCourtSocietyBMCS>,
+      },
+      {
+        path: "/BUBTPhotographyClub",
+        element: <BUBTPhotographyClub></BUBTPhotographyClub>,
       },
     ],
   },
