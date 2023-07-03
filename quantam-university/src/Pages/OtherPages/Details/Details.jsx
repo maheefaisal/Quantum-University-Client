@@ -3,7 +3,7 @@ import React from "react";
 const Details = () => {
   return (
     <>
-      <div className="container mx-auto my-10">
+      <div className="flex items-center justify-center h-screen">
         <div className="flex flex-wrap items-center">
           <div className="w-full md:w-1/3">
             <img
@@ -30,7 +30,7 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="bg-transparent-200 py-8">
+      <div className="bg-transparent-200 py-8 mx-24">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">Education</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -54,7 +54,7 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="bg-transparent-200 py-8">
+      <div className="bg-transparent-200 py-8 mx-24 ">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">Teaching Experience</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -77,7 +77,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="bg-transparent-200 py-8">
+      <div className="bg-transparent-200 py-8 mx-24">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">PUBLICATIONS</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -100,7 +100,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="bg-transparent-200 py-8">
+      <div className="bg-transparent-200 py-8 mx-24">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">Awards</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -123,7 +123,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="bg-transparent-200 py-8">
+      <div className="bg-transparent-200 py-8 mx-24">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">Affilations</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -146,7 +146,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="bg-transparent-200 py-8">
+      <div className="bg-transparent-200 py-8 mx-24">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">Conferences</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -169,7 +169,7 @@ const Details = () => {
           </div>
         </div>
       </div>
-      <div className="bg-transparent-200 py-8">
+      <div className="bg-transparent-200 py-8 mx-24">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold mb-4">Teaching Experience</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
