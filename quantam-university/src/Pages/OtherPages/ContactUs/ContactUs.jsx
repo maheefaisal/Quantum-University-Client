@@ -1,10 +1,11 @@
 import React from "react";
 import image1 from "../../../assets/images/convocation.jpeg";
+import { FaLocationArrow,FaPhone,FaMobile,FaWhatsapp,FaViber,FaInternetExplorer } from 'react-icons/fa';
 
 const ContactUs = () => {
   return (
     <>
-      {/* Banner For Credit Transfer
+      {/* Banner For Contact us
        */}
       <div className="relative">
         <img src={image1} alt="Banner" className="object-cover w-full h-64" />
@@ -12,116 +13,72 @@ const ContactUs = () => {
           <h1 className="text-white text-4xl font-bold">ContactUs</h1>
         </div>
       </div>
-
-      <div className="container my-8 mx-auto max-w-2xl">
-        <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-
-        <div className="grid grid-cols-2 gap-4">
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">Location</h2>
-            <p>Rupnagar R/A, Mirpur-2, Dhaka-1216, Bangladesh</p>
-          </div>
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">Phone Number</h2>
-            <p>4803-6351, 4803-6352, 4803-6353</p>
-          </div>
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">
-              Admission Hotline Number
-            </h2>
-            <p>
-              01810033733 01810033701, 01810033702, 01810033703, 01810033704,
-              01810033705, 01810033706
+      <div className="flex justify-center  container mx-auto w-1/2">
+        <div className=" flex">
+          <div className="w-1/2 p-8">
+            <h1 className="text-2xl font-bold mb-4">Contact Information</h1>
+            <p className="mb-2">
+              <FaLocationArrow/>: Rupnagar R/A, Mirpur-2, Dhaka-1216, Bangladesh
             </p>
-          </div>
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">Mobile</h2>
-            <p>
-              01967169189, 01845734337, 01680050630, 01741129235, 01554882075
+            <p className="mb-2"><FaPhone/>: 4803-6351, 4803-6352, 4803-6353</p>
+            <p className="mb-2">
+              Admission Hotline Number 01810033733 01810033701, 01810033702,
+              01810033703, 01810033704, 01810033705, 01810033706
             </p>
+            <p className="mb-2">
+              <FaPhone/>: 01967169189, 01845734337, 01680050630,
+              01741129235, 01554882075
+            </p>
+            <p className="mb-2"><FaWhatsapp/> :01680050630</p>
+            <p className="mb-2"><FaViber/>:01680050630</p>
+            <p className="mb-2">Email: info@bubt.edu.bd</p>
+            <p className="mb-2">Website: http://bubt.edu.bd</p>
           </div>
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">WhatsApp</h2>
-            <p>01680050630</p>
-          </div>
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">Viber</h2>
-            <p>01680050630</p>
-          </div>
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">Email</h2>
-            <p>info@bubt.edu.bd</p>
-          </div>
-          <div className="col-span-2 md:col-span-1">
-            <h2 className="text-lg font-semibold mb-2">Website</h2>
-            <p>http://bubt.edu.bd</p>
+          <div className="w-1/2 p-8">
+            <h1 className="text-2xl font-bold mb-4">Contact Form</h1>
+            <form className="mb-4">
+              <label className="block mb-2" htmlFor="name">
+                Name:
+              </label>
+              <input
+                className="w-full px-4 py-2 border border-gray-300 rounded-md"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+              />
+
+              <label className="block mb-2 mt-4" htmlFor="email">
+                Email:
+              </label>
+              <input
+                className="w-full px-4 py-2 border border-gray-300 rounded-md"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+              />
+
+              <label className="block mb-2 mt-4" htmlFor="message">
+                Message:
+              </label>
+              <textarea
+                className="w-full px-4 py-2 border border-gray-300 rounded-md"
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Your Message"
+              ></textarea>
+
+              <button
+                className="mt-4 w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </div>
-
-        <form>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="name"
-            >
-              Name
-            </label>
-            <input
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="name"
-              type="text"
-              placeholder="Your Name"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="email"
-            >
-              Email
-            </label>
-            <input
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="email"
-              type="email"
-              placeholder="Your Email"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="phone"
-            >
-              Phone
-            </label>
-            <input
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="phone"
-              type="tel"
-              placeholder="Your Phone Number"
-            />
-          </div>
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="message"
-            >
-              Message
-            </label>
-            <textarea
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="message"
-              rows="4"
-              placeholder="Your Message"
-            ></textarea>
-          </div>
-          <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="submit"
-          >
-            Submit
-          </button>
-        </form>
       </div>
     </>
   );
