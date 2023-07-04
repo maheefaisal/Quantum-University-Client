@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../../../assets/images/logo.png";
+// import logo from "../../../assets/images/logo.png";
+import logo from "../../../assets/images/bubtlogo.png";
 import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 import { Typography } from "@material-tailwind/react";
 const SITEMAP = [
@@ -26,7 +27,7 @@ const Footer = () => {
   return (
     <footer className="relative w-full bg-gray-900 text-white ">
       <div className="mx-auto w-full max-w-7xl ">
-        <div className=" ml-20 grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="pl-20 grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className="w-full">
               <Typography
@@ -67,9 +68,9 @@ const Footer = () => {
           </Typography>
           <Typography
             variant="small"
-            className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
+            className="mb-4  text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            <img src={logo} alt="" />
+            <img className="h-40" src={logo} alt="" />
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
             <Typography
