@@ -1,82 +1,96 @@
 import React from "react";
 import image1 from "../../../assets/images/convocation.jpeg";
-import { FaLocationArrow,FaPhone,FaMobile,FaWhatsapp,FaViber,FaInternetExplorer } from 'react-icons/fa';
+import {
+  FaLocationArrow,
+  FaPhone,
+  FaMobile,
+  FaWhatsapp,
+  FaViber,
+  FaInternetExplorer,
+  FaMailBulk,
+} from "react-icons/fa";
 
 const ContactUs = () => {
   return (
     <>
-      {/* Banner For Contact us
-       */}
+      {/* Banner For Contact us */}
       <div className="relative">
         <img src={image1} alt="Banner" className="object-cover w-full h-64" />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-50 bg-gray-900">
           <h1 className="text-white text-4xl font-bold">ContactUs</h1>
         </div>
       </div>
-      <div className="flex justify-center  container mx-auto w-1/2">
-        <div className=" flex">
-          <div className="w-1/2 p-8">
-            <h1 className="text-2xl font-bold mb-4">Contact Information</h1>
-            <p className="mb-2">
-              <FaLocationArrow/>: Rupnagar R/A, Mirpur-2, Dhaka-1216, Bangladesh
-            </p>
-            <p className="mb-2"><FaPhone/>: 4803-6351, 4803-6352, 4803-6353</p>
-            <p className="mb-2">
-              Admission Hotline Number 01810033733 01810033701, 01810033702,
-              01810033703, 01810033704, 01810033705, 01810033706
-            </p>
-            <p className="mb-2">
-              <FaPhone/>: 01967169189, 01845734337, 01680050630,
-              01741129235, 01554882075
-            </p>
-            <p className="mb-2"><FaWhatsapp/> :01680050630</p>
-            <p className="mb-2"><FaViber/>:01680050630</p>
-            <p className="mb-2">Email: info@bubt.edu.bd</p>
-            <p className="mb-2">Website: http://bubt.edu.bd</p>
+      <div className="mt-6 mx-20 card lg:card-side bg-base-100 shadow-xl">
+        <figure className="w-1/3">
+          <img
+            src="https://tile.loc.gov/image-services/iiif/service:gmd:gmd5:g5700:g5700:ct001356/full/pct:25/0/default.jpg"
+            alt="Map"
+          />
+        </figure>
+        <div className="card-body">
+          <div className="flex justify-center mt-40">
+            {/* Contact Information */}
+            <div className="flex flex-col items-center space-x-2">
+              {/* Phone Icon */}
+              <FaPhone className="text-gray-500" size={24} />
+              <span className="text-lg text-gray-700 font-medium">
+                123-456-7890
+              </span>
+            </div>
+
+            {/* Separator */}
+            <div className="mx-4 h-6 border-r border-gray-300"></div>
+
+            {/* Email Information */}
+            <div className="flex flex-col items-center space-x-2">
+              {/* Email Icon */}
+              <FaMailBulk className="text-gray-500" size={24} />
+              <span className="text-lg text-gray-700 font-medium">
+                example@example.com
+              </span>
+            </div>
+
+            <div className="mx-4 h-6 border-r border-gray-300"></div>
+
+            <div className="flex flex-col items-center space-x-2">
+              {/* Whatsapp Icon */}
+              <FaWhatsapp className="text-gray-500" size={24} />
+              <span className="text-lg text-gray-700 font-medium">
+                01680050630
+              </span>
+            </div>
           </div>
-          <div className="w-1/2 p-8">
-            <h1 className="text-2xl font-bold mb-4">Contact Form</h1>
-            <form className="mb-4">
-              <label className="block mb-2" htmlFor="name">
-                Name:
-              </label>
-              <input
-                className="w-full px-4 py-2 border border-gray-300 rounded-md"
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your Name"
-              />
+          <div className="flex justify-center">
+            {/* Contact Information */}
+            <div className="flex flex-col items-center space-x-2">
+              {/* Phone Icon */}
+              <FaInternetExplorer className="text-gray-500" size={24} />
+              <span className="text-lg text-gray-700 font-medium">
+                bubt.edu.bd
+              </span>
+            </div>
 
-              <label className="block mb-2 mt-4" htmlFor="email">
-                Email:
-              </label>
-              <input
-                className="w-full px-4 py-2 border border-gray-300 rounded-md"
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Your Email"
-              />
+            {/* Separator */}
+            <div className="mx-4 h-6 border-r border-gray-300"></div>
 
-              <label className="block mb-2 mt-4" htmlFor="message">
-                Message:
-              </label>
-              <textarea
-                className="w-full px-4 py-2 border border-gray-300 rounded-md"
-                id="message"
-                name="message"
-                rows="4"
-                placeholder="Your Message"
-              ></textarea>
+            {/* Email Information */}
+            <div className="flex flex-col items-center space-x-2">
+              {/* Email Icon */}
+              <FaPhone className="text-gray-500" size={24} />
+              <span className="text-lg text-gray-700 font-medium">
+                Admission Hotline Number: 01810033733
+              </span>
+            </div>
 
-              <button
-                className="mt-4 w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
-                type="submit"
-              >
-                Submit
-              </button>
-            </form>
+            <div className="mx-4 h-6 border-r border-gray-300"></div>
+
+            <div className="flex flex-col items-center space-x-2">
+              {/* Whatsapp Icon */}
+              <FaViber className="text-gray-500" size={24} />
+              <span className="text-lg text-gray-700 font-medium">
+                01680050630
+              </span>
+            </div>
           </div>
         </div>
       </div>
