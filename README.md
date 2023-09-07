@@ -25,8 +25,8 @@ Quantum University is an innovative online learning platform that leverages the 
 
 ## Screenshots
 
-![Screenshot 1](link-to-screenshot-1.png)
-![Screenshot 2](link-to-screenshot-2.png)
+![Screenshot 1](./Screenshot_1.png)
+![Screenshot 2](./Screenshot_2.png)
 
 ## Getting Started
 
