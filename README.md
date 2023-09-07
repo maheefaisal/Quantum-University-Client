@@ -50,6 +50,6 @@ npm start
 ## Contributing
 We welcome contributions to the Quantum University project. If you'd like to contribute, please follow our Contribution Guidelines.
 
-### License
+## License
 This project is licensed under the MIT License.
 
